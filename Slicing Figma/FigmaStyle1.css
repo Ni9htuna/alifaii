@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.navbar .menu ul li {
+    display: inline;
+    margin-right: 10%;
+    font-family: "montserrat", sans-serif;
+}
